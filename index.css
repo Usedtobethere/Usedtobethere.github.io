@@ -116,8 +116,8 @@ ul{
 .presentacion{
     height: 100vh;
 }
-.tools{
-    height: 10vh;
+.divTools{
+  height: 70vh;
 }
 
 .tech-icons {
@@ -247,6 +247,12 @@ ul{
 .iconContacto:hover{
     fill: #623686!important;
 }
+.divButton{
+  display: flex;
+
+  flex-direction: row;
+  justify-content: center;
+}
 svg #hex {
     -ms-transform: rotate(0deg); /* IE 9 */
     -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
@@ -265,4 +271,10 @@ svg #hex {
 }
 #contact:hover {
     color: #623686;
+}
+@media screen and (max-width: 770px) {
+  .divWorks, .divTools{
+    margin-top: 10vh;
+  }
+
 }
