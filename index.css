@@ -20,7 +20,7 @@
 }
 body{
     background-color: #0A0A09;
-    background-image: url(https://jobenetuk.dev/grain.9f5428ec95c49aed79f1..svg);
+    background-image: url(./images/grainedSvg.svg);
 }
 .text{
     color: #FCF3EB;
@@ -276,5 +276,4 @@ svg #hex {
   .divWorks, .divTools{
     margin-top: 10vh;
   }
-
 }
